@@ -1,4 +1,13 @@
-# NCursesSnake
-A simple implementation of the game snake using the Ncurses library.  
-Requires the user to have the nCurses library installed and be on a unix device.  
-Currently in prototyping stage, should work on most devices but may have artifacts of development and contain bugs. 
+A simple Snake game to test out some functionality of the NCurses library
+
+requires Ncurses to run
+
+Install and build by
+
+git clone https://github.com/username/MyProject.git
+
+mkdir build
+cd build
+cmake ..
+make
+

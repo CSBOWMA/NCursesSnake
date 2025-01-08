@@ -48,6 +48,7 @@ timeout(0);
 
 WINDOW* windowInit() {
     initscr();
+    //height, width, y off, x off
     WINDOW *win = newwin(0, 0, 0, 0);  
     wborder(win, (char)219, (char)219, (char)219, (char)219, (char)219, (char)219, (char)219, (char)219);
     curs_set(0);
